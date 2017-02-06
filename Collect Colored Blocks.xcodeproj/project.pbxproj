@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E80B182E1E491A65006EBAE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80B182D1E491A65006EBAE4 /* AppDelegate.swift */; };
+		E80B18301E491A65006EBAE4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E80B182F1E491A65006EBAE4 /* GameScene.sks */; };
+		E80B18321E491A65006EBAE4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E80B18311E491A65006EBAE4 /* Actions.sks */; };
+		E80B18341E491A65006EBAE4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80B18331E491A65006EBAE4 /* GameScene.swift */; };
+		E80B18361E491A65006EBAE4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80B18351E491A65006EBAE4 /* GameViewController.swift */; };
+		E80B18391E491A65006EBAE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80B18371E491A65006EBAE4 /* Main.storyboard */; };
+		E80B183B1E491A65006EBAE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80B183A1E491A65006EBAE4 /* Assets.xcassets */; };
+		E80B183E1E491A65006EBAE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80B183C1E491A65006EBAE4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E80B182A1E491A65006EBAE4 /* Collect Colored Blocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Collect Colored Blocks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80B182D1E491A65006EBAE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E80B182F1E491A65006EBAE4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E80B18311E491A65006EBAE4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		E80B18331E491A65006EBAE4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E80B18351E491A65006EBAE4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E80B18381E491A65006EBAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E80B183A1E491A65006EBAE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E80B183D1E491A65006EBAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E80B183F1E491A65006EBAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E80B18271E491A65006EBAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E80B18211E491A65006EBAE4 = {
+			isa = PBXGroup;
+			children = (
+				E80B182C1E491A65006EBAE4 /* Collect Colored Blocks */,
+				E80B182B1E491A65006EBAE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E80B182B1E491A65006EBAE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E80B182A1E491A65006EBAE4 /* Collect Colored Blocks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E80B182C1E491A65006EBAE4 /* Collect Colored Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				E80B182D1E491A65006EBAE4 /* AppDelegate.swift */,
+				E80B182F1E491A65006EBAE4 /* GameScene.sks */,
+				E80B18311E491A65006EBAE4 /* Actions.sks */,
+				E80B18331E491A65006EBAE4 /* GameScene.swift */,
+				E80B18351E491A65006EBAE4 /* GameViewController.swift */,
+				E80B18371E491A65006EBAE4 /* Main.storyboard */,
+				E80B183A1E491A65006EBAE4 /* Assets.xcassets */,
+				E80B183C1E491A65006EBAE4 /* LaunchScreen.storyboard */,
+				E80B183F1E491A65006EBAE4 /* Info.plist */,
+			);
+			path = "Collect Colored Blocks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E80B18291E491A65006EBAE4 /* Collect Colored Blocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E80B18421E491A65006EBAE4 /* Build configuration list for PBXNativeTarget "Collect Colored Blocks" */;
+			buildPhases = (
+				E80B18261E491A65006EBAE4 /* Sources */,
+				E80B18271E491A65006EBAE4 /* Frameworks */,
+				E80B18281E491A65006EBAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Collect Colored Blocks";
+			productName = "Collect Colored Blocks";
+			productReference = E80B182A1E491A65006EBAE4 /* Collect Colored Blocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E80B18221E491A65006EBAE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Andy Wu";
+				TargetAttributes = {
+					E80B18291E491A65006EBAE4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R52DFB482J;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E80B18251E491A65006EBAE4 /* Build configuration list for PBXProject "Collect Colored Blocks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E80B18211E491A65006EBAE4;
+			productRefGroup = E80B182B1E491A65006EBAE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E80B18291E491A65006EBAE4 /* Collect Colored Blocks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E80B18281E491A65006EBAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80B18391E491A65006EBAE4 /* Main.storyboard in Resources */,
+				E80B18301E491A65006EBAE4 /* GameScene.sks in Resources */,
+				E80B183B1E491A65006EBAE4 /* Assets.xcassets in Resources */,
+				E80B183E1E491A65006EBAE4 /* LaunchScreen.storyboard in Resources */,
+				E80B18321E491A65006EBAE4 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E80B18261E491A65006EBAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80B18341E491A65006EBAE4 /* GameScene.swift in Sources */,
+				E80B18361E491A65006EBAE4 /* GameViewController.swift in Sources */,
+				E80B182E1E491A65006EBAE4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E80B18371E491A65006EBAE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E80B18381E491A65006EBAE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E80B183C1E491A65006EBAE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E80B183D1E491A65006EBAE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E80B18401E491A65006EBAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E80B18411E491A65006EBAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E80B18431E491A65006EBAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R52DFB482J;
+				INFOPLIST_FILE = "Collect Colored Blocks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wu.andy.Collect-Colored-Blocks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E80B18441E491A65006EBAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R52DFB482J;
+				INFOPLIST_FILE = "Collect Colored Blocks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wu.andy.Collect-Colored-Blocks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E80B18251E491A65006EBAE4 /* Build configuration list for PBXProject "Collect Colored Blocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E80B18401E491A65006EBAE4 /* Debug */,
+				E80B18411E491A65006EBAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E80B18421E491A65006EBAE4 /* Build configuration list for PBXNativeTarget "Collect Colored Blocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E80B18431E491A65006EBAE4 /* Debug */,
+				E80B18441E491A65006EBAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E80B18221E491A65006EBAE4 /* Project object */;
+}
