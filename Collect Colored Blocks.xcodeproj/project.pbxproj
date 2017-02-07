@@ -8,19 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		E80B182E1E491A65006EBAE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80B182D1E491A65006EBAE4 /* AppDelegate.swift */; };
-		E80B18301E491A65006EBAE4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E80B182F1E491A65006EBAE4 /* GameScene.sks */; };
 		E80B18321E491A65006EBAE4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E80B18311E491A65006EBAE4 /* Actions.sks */; };
 		E80B18341E491A65006EBAE4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80B18331E491A65006EBAE4 /* GameScene.swift */; };
 		E80B18361E491A65006EBAE4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80B18351E491A65006EBAE4 /* GameViewController.swift */; };
 		E80B18391E491A65006EBAE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80B18371E491A65006EBAE4 /* Main.storyboard */; };
 		E80B183B1E491A65006EBAE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80B183A1E491A65006EBAE4 /* Assets.xcassets */; };
 		E80B183E1E491A65006EBAE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80B183C1E491A65006EBAE4 /* LaunchScreen.storyboard */; };
+		E89E8A731E491AD100804CBC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E89E8A721E491AD100804CBC /* GameScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E80B182A1E491A65006EBAE4 /* Collect Colored Blocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Collect Colored Blocks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E80B182D1E491A65006EBAE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E80B182F1E491A65006EBAE4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		E80B18311E491A65006EBAE4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		E80B18331E491A65006EBAE4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E80B18351E491A65006EBAE4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		E80B183A1E491A65006EBAE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E80B183D1E491A65006EBAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E80B183F1E491A65006EBAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E89E8A721E491AD100804CBC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E80B182D1E491A65006EBAE4 /* AppDelegate.swift */,
-				E80B182F1E491A65006EBAE4 /* GameScene.sks */,
 				E80B18311E491A65006EBAE4 /* Actions.sks */,
+				E89E8A721E491AD100804CBC /* GameScene.sks */,
 				E80B18331E491A65006EBAE4 /* GameScene.swift */,
 				E80B18351E491A65006EBAE4 /* GameViewController.swift */,
 				E80B18371E491A65006EBAE4 /* Main.storyboard */,
@@ -134,7 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E80B18391E491A65006EBAE4 /* Main.storyboard in Resources */,
-				E80B18301E491A65006EBAE4 /* GameScene.sks in Resources */,
+				E89E8A731E491AD100804CBC /* GameScene.sks in Resources */,
 				E80B183B1E491A65006EBAE4 /* Assets.xcassets in Resources */,
 				E80B183E1E491A65006EBAE4 /* LaunchScreen.storyboard in Resources */,
 				E80B18321E491A65006EBAE4 /* Actions.sks in Resources */,
@@ -314,6 +314,7 @@
 				E80B18441E491A65006EBAE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
